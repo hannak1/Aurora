@@ -1,0 +1,25 @@
+li {
+  padding: 15px 15px 15px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+h1{
+    color:#d11b1b;
+    }
+td, th {
+  border: 3px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+body {
+  background-color:#da97de;
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 15px;
+  margin: 0;
+  background-repeat:no-repeat;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll; 
+}
