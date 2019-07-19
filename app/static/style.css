@@ -6,20 +6,42 @@ li {
   margin-bottom:5px;
 }
 h1{
-    color:#d11b1b;
+    color:black;
     }
-td, th {
-  border: 3px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-body {
-  background-color:#da97de;
-  font-family: 'Londrina Sketch', cursive;
-  font-size: 15px;
-  margin: 0;
+
+#jumbotron{
+  background:url(https://www.universetoday.com/wp-content/uploads/2014/03/IMG_0825lrweb.jpg);
+  height:100vh;
+  width:100%;
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:center;
   background-repeat:no-repeat;
-  display: flex;
-  flex-direction: column;
-  overflow-y: scroll; 
+  text-align:center;
+}
+
+#jumbotron div{
+  height:inherit;
+  background:rgb(0,0,0,0.4);
+}
+#jumbotron .perfect-center{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+a:visited{
+  color: black;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:red;
+}
+body{
+    background-color:#f8f0ff;
 }
